@@ -87,8 +87,7 @@ This framework is not a closed system but an invitation—a methodology to pursu
     <object
       data="./Logos_Final.pdf"
       type="application/pdf"
-      width="100%"
-      height="100%">
+      style="width:100%; height:80vh;">
       <p>
         Inline PDF not supported—<a href="./Logos/Logos_Final.pdf">
         download here</a>.
