@@ -85,7 +85,7 @@ This framework is not a closed system but an invitation—a methodology to pursu
 
   <div class="viewer">
     <object
-      data="/Logos_Final.pdf"
+      data="Logos_Final.pdf"
       type="application/pdf"
       style="width:100%; height:80vh;">
       <p>
