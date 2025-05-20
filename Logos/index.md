@@ -84,10 +84,9 @@ This framework is not a closed system but an invitation—a methodology to pursu
 <body>
 
   <div class="viewer">
-    <object
-      data="Logos_Final.pdf"
-      type="application/pdf"
-      style="width:100%; height:80vh;">
+    <iframe src="Logos_Final.pdf" width="100%" height="80vh">
+  This browser does not support PDFs. <a href="Logos_Final.pdf">Download</a>.
+</iframe>
       <p>
         Inline PDF not supported—<a href="Logos_Final.pdf">
         download here</a>.
