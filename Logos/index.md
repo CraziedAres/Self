@@ -65,7 +65,11 @@ This framework is not a closed system but an invitation—a methodology to pursu
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Logos Theory</title>
   <style>
-    html, body { margin:0; padding:0; height:100%; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
     body {
       display: flex;
       flex-direction: column;
@@ -77,16 +81,18 @@ This framework is not a closed system but an invitation—a methodology to pursu
       padding: 2rem;
     }
     .viewer {
-      flex: 1;              /* fill remaining space */
+      flex: 1; /* fill remaining space */
+    }
+    iframe {
+      border: none; /* Optional: Removes the default border */
     }
   </style>
 </head>
 <body>
-
   <div class="viewer">
-    <iframe src="Logos_Final.pdf" width="100%" height="80vh">
-  This browser does not support PDFs. <a href="Logos_Final.pdf">Download</a>.
-</iframe>
+    <iframe src="Logos_Final.pdf" width="100%" height="100%">
+      This browser does not support PDFs. <a href="Logos_Final.pdf">Download</a>.
+    </iframe>
   </div>
 </body>
 </html>
